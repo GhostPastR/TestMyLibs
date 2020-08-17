@@ -1,5 +1,7 @@
 PATH = ./
 
+CONFIG += c++14
+
 defineReplace(setPath){
     PATH = $$1
     export(PATH)

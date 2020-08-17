@@ -1,21 +1,21 @@
 TARGET = NUnit
 
 SOURCES += \
-    mpangle.cpp \
-    mpdistance.cpp \
-    mpspeed.cpp \
-    mptime.cpp
+    nangle.cpp \
+    ndistance.cpp \
+    nspeed.cpp \
+    ntime.cpp
 
 HEADERS  += \
-    mpangle.h \
-    mpspeed.h \
-    mpdistance.h \
-    mptime.h \
-    mpmass.h \
-    mplimit.h \
-    mpldistance.h \
-    mplspeed.h \
-    mpunit.h \
+    nangle.h \
+    ndistance.h \
+    nldistance.h \
+    nlimit.h \
+    nlspeed.h \
+    nmass.h \
+    nspeed.h \
+    ntime.h \
+    nunit.h
 
 include(../../../project.pri)
 out = $$setPath(../../../)
